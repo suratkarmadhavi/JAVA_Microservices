@@ -37,7 +37,7 @@ public class OrderController {
 	        description = "Fetch a specific order from the database using the order ID"
 	)
 	@ApiResponses(value = {
-	        @ApiResponse(responseCode = "200", description = "Order found successfully",
+	        @ApiResponse(responseCode = "200", description = "Order found madhavi successfully.",
 	                content = @Content(mediaType = "application/json",
 	                schema = @Schema(implementation = OrderResponseDTO.class))),
 
